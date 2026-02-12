@@ -41,7 +41,7 @@ nav.scrolled .nav-links a { color: var(--dark); }
 /* Hero Full Screen */
 .hero {
     height: 100vh;
-    background: url('assets/img2.jpg') no-repeat center center/cover;
+    background: url('assets/hero.webp') no-repeat center center/cover;
     display: flex; align-items: center; position: relative; color: var(--white);
 }
 

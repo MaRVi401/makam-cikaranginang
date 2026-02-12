@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TPU Cikaranginang - Peristirahatan yang Asri & Tenang</title>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap"
-        rel="stylesheet">
-
+    <title>TPU Cikaranginang - Khidmat & Asri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <nav id="navbar">
@@ -23,8 +16,7 @@
             <ul class="nav-links">
                 <li><a href="#beranda">Beranda</a></li>
                 <li><a href="#galeri">Galeri</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-                <li><a href="#kontak" class="nav-btn">Layanan</a></li>
+                <li><a href="#lokasi">Lokasi</a></li>
             </ul>
         </div>
     </nav>
@@ -32,20 +24,19 @@
     <header id="beranda" class="hero">
         <div class="hero-overlay"></div>
         <div class="container">
-            <div class="hero-content">
-                <span class="badge" data-aos="fade-right" data-aos-delay="200">Official Website</span>
-                <h2 data-aos="fade-up" data-aos-delay="400">Ketentraman <br>& Keasrian Alam</h2>
-                <p data-aos="fade-up" data-aos-delay="600">Menyediakan tempat peristirahatan terakhir yang layak,
-                    tertata, dan tenang bagi keluarga tercinta di tengah suasana yang asri.</p>
-                <div class="hero-btns" data-aos="fade-up" data-aos-delay="800">
-                    <a href="https://maps.app.goo.gl/2BWFVGat2YfCadum6" class="btn btn-primary">Lihat Area Makam</a>
-                    <a href="#kontak" class="btn btn-outline">Hubungi Kami</a>
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1200">
+                <span class="badge">Official Website</span>
+                <h2>Ketentraman &<br>Keasrian Alam</h2>
+                <p>Menyediakan tempat peristirahatan terakhir yang layak, tertata, dan tenang bagi keluarga tercinta di tengah suasana yang asri.</p>
+                <div class="hero-btns">
+                    <a href="#galeri" class="btn btn-primary">Lihat Area Makam</a>
+                    <a href="#lokasi" class="btn btn-outline">Cek Lokasi</a>
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="galeri" class="gallery-section">
+    <section id="galeri">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
                 <h2 class="section-title">Galeri Lokasi</h2>
@@ -54,102 +45,38 @@
             </div>
 
             <div class="grid">
-                <div class="grid">
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="100">
-                        <div class="card-img">
-                            <img src="assets/img2.jpg" alt="Area Makam">
-                        </div>
-                        <div class="card-info">
-                            <h3>Area Makam Luas</h3>
-                            <p>Penataan batu nisan yang seragam, rapi, dan mudah dicari.</p>
-                        </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-img"><img src="assets/img2.jpg" alt="Area Makam"></div>
+                    <div class="card-info">
+                        <h3>Area Makam Luas</h3>
+                        <p>Penataan batu nisan yang seragam, rapi, dan memudahkan keluarga saat berziarah.</p>
                     </div>
-
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="200">
-                        <div class="card-img">
-                            <img src="assets/img2.jpg" alt="Perawatan Berkala">
-                        </div>
-                        <div class="card-info">
-                            <h3>Perawatan Berkala</h3>
-                            <p>Pemotongan rumput dan pembersihan tanaman secara rutin setiap bulan.</p>
-                        </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-img"><img src="assets/img2.jpg" alt="Perawatan"></div>
+                    <div class="card-info">
+                        <h3>Perawatan Rutin</h3>
+                        <p>Kebersihan rumput dan tanaman selalu terjaga setiap bulan oleh tim pengelola.</p>
                     </div>
-
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
-                        <div class="card-img">
-                            <img src="assets/img2.jpg" alt="Suasana Asri">
-                        </div>
-                        <div class="card-info">
-                            <h3>Suasana Asri</h3>
-                            <p>Lingkungan hijau yang asri memberikan ketenangan bagi para peziarah.</p>
-                        </div>
-                    </div>
-
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="400">
-                        <div class="card-img">
-                            <img src="assets/img2.jpg" alt="Akses Jalan">
-                        </div>
-                        <div class="card-info">
-                            <h3>Akses Jalan Luas</h3>
-                            <p>Kemudahan akses jalan setapak yang bersih dan area parkir kendaraan.</p>
-                        </div>
-                    </div>
-
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="500">
-                        <div class="card-img">
-                            <img src="assets/img2.jpg" alt="Sistem Informasi">
-                        </div>
-                        <div class="card-info">
-                            <h3>Pencarian Data Digital</h3>
-                            <p>Sistem informasi digital untuk memudahkan ahli waris mencari lokasi makam.</p>
-                        </div>
-                    </div>
-
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="600">
-                        <div class="card-img">
-                            <img src="assets/img2.jpg" alt="Layanan Pemakaman">
-                        </div>
-                        <div class="card-info">
-                            <h3>Layanan Pemakaman</h3>
-                            <p>Bantuan proses administrasi dan persiapan pemakaman yang cepat & tanggap.</p>
-                        </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-img"><img src="assets/img2.jpg" alt="Akses"></div>
+                    <div class="card-info">
+                        <h3>Akses Mudah</h3>
+                        <p>Lingkungan yang asri dengan akses jalan setapak yang bersih bagi para peziarah.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="kontak" class="contact-section">
+    <section id="lokasi" class="location-section">
         <div class="container">
-            <div class="contact-card" data-aos="zoom-in" data-aos-duration="1000">
-                <div class="contact-text">
-                    <h2>Layanan & Informasi</h2>
-                    <p>Kami siap membantu Anda dalam pengurusan administrasi maupun perawatan makam.</p>
-                </div>
-                <div class="contact-grid">
-                    <div class="contact-item">
-                        <div class="icon">📍</div>
-                        <div class="item-text">
-                            <strong>Lokasi</strong>
-                            <p>Jl. Panji No.43, Cigadung, Kec. Subang, Kabupaten Subang, Jawa Barat 41211</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="icon">📞</div>
-                        <div class="item-text">
-                            <strong>Telepon / WhatsApp</strong>
-                            <p>
-                                <a href="https://wa.me/6281395321457" target="_blank" class="wa-link">+62 813-9532-1457</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="icon">⏰</div>
-                        <div class="item-text">
-                            <strong>Jam Operasional</strong>
-                            <p>07:00 - 16:00 WIB</p>
-                        </div>
-                    </div>
+            <div class="location-card" data-aos="zoom-in">
+                <div class="location-content">
+                    <h2>Lokasi & Alamat</h2>
+                    <p>Jl. Panji No.43, Cigadung, Kec. Subang, Kabupaten Subang, Jawa Barat 41211</p>
+                    <a href="https://maps.google.com/?q=TPU+Cikaranginang+Subang" target="_blank" class="btn btn-outline-dark">Petunjuk Arah Maps</a>
                 </div>
             </div>
         </div>
@@ -157,13 +84,16 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 <strong>TPU Cikaranginang</strong>. Dikelola dengan penuh khidmat & hormat.</p>
+            <p>© 2026 <strong>TPU Cikaranginang</strong>. Dikelola dengan penuh khidmat & hormat.</p>
         </div>
     </footer>
+
+    <a href="https://wa.me/6281395321457" class="floating-contact" target="_blank">
+        <span>Hubungi Kami</span>
+    </a>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
